@@ -1,0 +1,30 @@
+17-10-2024 15:56:11.65 - INFO - Started validation of input parameters...
+17-10-2024 15:56:11.65 - INFO - Completed validation of input parameters
+17-10-2024 15:56:11.65 - INFO - Skipped handling of duplicates
+17-10-2024 15:56:11.65 - INFO - Started handling of missing values...
+17-10-2024 15:56:11.65 - INFO - Found a total of 3 missing value(s)
+17-10-2024 15:56:11.65 - INFO - Started handling of NUMERICAL missing values... Method: "AUTO"
+17-10-2024 15:56:11.68 - DEBUG - LINREG imputation of 1 value(s) succeeded for feature "SAT"
+17-10-2024 15:56:11.71 - DEBUG - LINREG imputation of 1 value(s) succeeded for feature "SFRatio"
+17-10-2024 15:56:11.72 - DEBUG - LINREG imputation of 1 value(s) succeeded for feature "GradRate"
+17-10-2024 15:56:11.72 - INFO - Completed handling of missing values in 0.073133 seconds
+17-10-2024 15:56:11.73 - INFO - Started handling of outliers... Method: "WINZ"
+17-10-2024 15:56:11.73 - DEBUG - Outlier imputation of 4 value(s) succeeded for feature "SAT"
+17-10-2024 15:56:11.73 - DEBUG - Outlier imputation of 4 value(s) succeeded for feature "Top10"
+17-10-2024 15:56:11.74 - DEBUG - Outlier imputation of 1 value(s) succeeded for feature "Accept"
+17-10-2024 15:56:11.74 - DEBUG - Outlier imputation of 1 value(s) succeeded for feature "SFRatio"
+17-10-2024 15:56:11.74 - INFO - Completed handling of outliers in 0.012646 seconds
+17-10-2024 15:56:11.74 - INFO - Skipped datetime feature conversion
+17-10-2024 15:56:11.74 - INFO - Started encoding categorical features... Method: "AUTO"
+17-10-2024 15:56:11.74 - DEBUG - Encoding to LABEL succeeded for feature "State"
+17-10-2024 15:56:11.74 - INFO - Completed encoding of categorical features in 0.005284 seconds
+17-10-2024 15:56:11.74 - INFO - Started feature type conversion...
+17-10-2024 15:56:11.75 - DEBUG - Conversion to type INT succeeded for feature "SAT"
+17-10-2024 15:56:11.75 - DEBUG - Conversion to type INT succeeded for feature "Top10"
+17-10-2024 15:56:11.75 - DEBUG - Conversion to type INT succeeded for feature "Accept"
+17-10-2024 15:56:11.75 - DEBUG - Conversion to type INT succeeded for feature "SFRatio"
+17-10-2024 15:56:11.75 - DEBUG - Conversion to type INT succeeded for feature "Expenses"
+17-10-2024 15:56:11.75 - DEBUG - Conversion to type INT succeeded for feature "GradRate"
+17-10-2024 15:56:11.76 - DEBUG - Conversion to type INT succeeded for feature "State_lab"
+17-10-2024 15:56:11.76 - INFO - Completed feature type conversion for 7 feature(s) in 0.011154 seconds
+17-10-2024 15:56:11.76 - INFO - AutoClean process completed in 0.110582 seconds
